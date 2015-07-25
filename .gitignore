@@ -1,0 +1,37 @@
+### Grails template
+
+# web application files
+/web-app/WEB-INF/classes
+
+# default HSQL database files for production mode
+*.db
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/build
+
+.gradle
+
+networkequipment.iml
+networkequipment.ipr
+networkequipment.iws
+
